@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCUMENT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header-about">
+
+        <nav>
+          <a href=""><img src="uni-imag/الشعار.jpg" alt=""></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa-solid fa-xmark icon" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about- Copy.html">ABOUT</a></li>
+                    <li><a href="courses - Copy.html">Facilities offered</a></li>
+                    <li><a href="blogs - Copy.html">BLOGS</a></li>
+                    <li><a href="contact us - Copy.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text">
+          <h1>FACILITIES OFFERED</h1> 
+        </div>
+    </section>
+    <section class="courses">
+        <h1>منتجع هول إن ون </h1>
+        <p>بعض خدمات العناية التي يمكنك الاستمتاع بها في  منتجعنا</p>
+        <div class="row">
+            <div class="column">
+                <h3>العناية بالصحة والاستجمام</h3>
+                <p>مرافق الاسترخاء والرفاهية: المنتجع يوفر بيئة هادئة لراحة جسمك وعقلك مع المساحات الطبيعية الجميلة التي تحيط بك.
+                    أنشطة رياضية متنوعة: بما في ذلك ملاعب الجولف، والنوادي الرياضية، مما يساعد على الحفاظ على نشاطك البدني طوال فترة الإقامة.
+                    المرافق الصحية: رغم أن المنتجع لا يحتوي على مركز سبا أو علاج خاص في هذا الوقت، فإن استراحة استجمام والحزم الأخرى توفر لك راحة واسترخاء مع إطلالات خلابة ومرافق مريحة</p>
+            </div>
+            <div class="column">
+                <h3>العناية بالمرافق والإقامة</h3>
+                <p>غرف وفنادق فاخرة: يضمن المنتجع لك إقامة مريحة في بيئة هادئة ومناسبة للاسترخاء.
+                    خدمة مميزة: مثل خدمة الغرف 24/7، بالإضافة إلى رعاية خاصة لضمان راحتك أثناء الإقامة</p>
+            </div>
+            <div class="column">
+                <h3>العناية في الطعام</h3>
+                <p>مطاعم ومقاهي متنوعة: مع تقديم وجبات متوازنة وصحية، بالإضافة إلى خيارات عالمية ومحلية تناسب جميع الأذواق.
+                    منتجع "هول إن ون" يعنى بتوفير كل ما تحتاجه لتحقيق أفضل تجربة استرخاء، وتساعد هذه الخدمات في تعزيز راحتك وجودة إقامتك. هل تحتاج إلى المزيد من التفاصيل حول أي خدمة؟</p>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <h1>صور لمنتجعنا</h1>
+        <p>قمنا بعرض صور منتجعنا لمساعدة عملائنا على معرفة خدماتنا </p>
+        <div class="row">
+            <div class="featurediv">
+                <img src="uni-imag/صور النوادي والرياضة.jpg" alt="">
+                <div class="heading2">
+                    <h3>نوادي الرياضة</h3>
+                    <p>يحتوي المنتجع على ثلاثة ملاعب جولف بمعايير عالمية، بما في ذلك ملعب "سي فيو" الشهير، مما يوفر تجربة لعب متميزة للاعبين المحترفين والهواة</p>
+                </div>
+            </div>
+            <div class="featurediv">
+                <img src="uni-imag/صور الانشطة المائية في الموقع.jpg" alt="">
+                <div class="heading2">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+    
+            <div class="featurediv">
+                <img src="uni-imag/صورة المطاعم والمقاهي.jpg" alt="">
+                <div class="heading2">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    
+    
+     <section class="footer">
+                  <h4>ABOUT US</h4>
+        <p></p>
+          
+      <div class="social">
+        <i class="fa fa-facebook"></i>  
+        <i class="fa fa-link in"></i> 
+        <i class="fa fa-twitter"></i> 
+        <i class="fa fa-youtube"></i> 
+        <p>من صنع منتجع هول ان ون <i class="fa fa-heart-o" style="color: red;"></i> thank you</p> 
+    </div>
+</section>
+ 
+<script>
+
+    var navlink = document.getElementById("navlink");
+    function hidemenu(){
+        navlink.style.right ="-200px"
+    }
+    function showmenu(){
+        navlink.style.right = "0px"
+    }
+</script>
+</body>
+</html>
